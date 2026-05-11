@@ -1,5 +1,9 @@
-# Faz com que o GitHub ignore o HTML nas estatísticas de linguagem
+# Força o GitHub a ignorar o HTML nas estatísticas e focar na lógica
 *.html linguist-detectable=false
 
-# Ou, se quiser que ele trate o HTML como se fosse JS para as barras de cores:
+# Garante que o CSS e o JavaScript sejam os protagonistas
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+
+# Se você quiser que o código dentro do HTML seja contado como JS:
 *.html linguist-language=JavaScript
