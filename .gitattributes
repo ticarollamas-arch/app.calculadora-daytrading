@@ -1,0 +1,5 @@
+# Faz com que o GitHub ignore o HTML nas estatísticas de linguagem
+*.html linguist-detectable=false
+
+# Ou, se quiser que ele trate o HTML como se fosse JS para as barras de cores:
+*.html linguist-language=JavaScript
